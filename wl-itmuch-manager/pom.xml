@@ -37,6 +37,17 @@
             <artifactId>tomcat7-maven-plugin</artifactId>
             <version>2.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.miemiedev/mybatis-paginator -->
+        <dependency>
+            <groupId>com.github.miemiedev</groupId>
+            <artifactId>mybatis-paginator</artifactId>
+            <version>1.2.15</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
